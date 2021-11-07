@@ -4,15 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "8cc7342fff6f24df",
+        "id": "b3ded6862826471c",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        },
+        "group": "87ef452c171c0eac"
+      },
+      {
+        "id": "cd1804370d2462ca",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01 - Document/First Steps/Quickstart.md",
+            "file": "01 - Document/Implementation/Docker Implementation.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "87ef452c171c0eac"
       }
     ],
     "direction": "vertical"
@@ -68,7 +78,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Document/First Steps/Quickstart.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +95,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8cc7342fff6f24df",
+  "active": "b3ded6862826471c",
   "lastOpenFiles": [
-    "01 - Document/First Steps/Quickstart.md",
+    "03 - Examples/Examples.md",
     "01 - Document/Implementation/Docker Implementation.md",
-    "03 - Examples/Node.js/Packages.md",
-    "02 - Concepts/Replication Factor.md",
-    "02 - Concepts/Topic.md",
+    "03 - Examples/Node.js/node-example-1/node-example-1.md",
+    "01 - Document/First Steps/Quickstart.md",
+    "02 - Concepts/Event.md",
     "02 - Concepts/Partition.md",
-    "Document/Untitled.md",
-    "Broker/Kafka/Untitled.md"
+    "02 - Concepts/Consumer.md",
+    "02 - Concepts/Producer.md",
+    "03 - Examples/Node.js/Packages.md",
+    "02 - Concepts/Replication Factor.md"
   ]
 }

@@ -27,6 +27,8 @@ services:
 		depends_on:
 			- zookeeper
 ```
+&nbsp;
+&nbsp;
 
 ## STEP 2: Create Topic
 _With this command we create a topic inside of the docker_
@@ -44,8 +46,18 @@ docker exec -it kafka /opt/bitnami/kafka/bin/kafka-topics.sh \
 **`partitions`**: _Number of partitions we need to create. [ more info in [[Partition]] ]_
 **`replication-factor`**: _Replication factor defines the number of copies of a topic in a Kafka cluster. [ more info in [[Replication Factor]] ]_
 
+Also you can read more about [[Producer]], [[Consumer]], [[Event]], etc in Concepts.
+
 Please take a look at this picture:
 
 ![[partitions-in-kafka.png]]
 
 in this picture we have 1 topic and that topic has 3 partitions.
+&nbsp;
+&nbsp;
+
+---
+
+There are some [[Examples]] to read.
+
+---
