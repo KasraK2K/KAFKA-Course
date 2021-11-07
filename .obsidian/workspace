@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01 - Document/Implementation/Docker Implementation.md",
+            "file": "01 - Document/First Steps/Quickstart.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Document/Implementation/Docker Implementation.md",
+                "file": "01 - Document/First Steps/Quickstart.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,12 +88,12 @@
   },
   "active": "8cc7342fff6f24df",
   "lastOpenFiles": [
+    "01 - Document/First Steps/Quickstart.md",
     "01 - Document/Implementation/Docker Implementation.md",
     "03 - Examples/Node.js/Packages.md",
     "02 - Concepts/Replication Factor.md",
     "02 - Concepts/Topic.md",
     "02 - Concepts/Partition.md",
-    "01 - Document/First Steps/Quickstart.md",
     "Document/Untitled.md",
     "Broker/Kafka/Untitled.md"
   ]

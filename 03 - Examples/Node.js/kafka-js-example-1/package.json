@@ -1,0 +1,23 @@
+{
+    "name": "kafka-js-example-1",
+    "version": "1.0.0",
+    "description": "integrate kafka with node",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "start:producer": "node ./producer",
+        "start:consumer": "node ./consumer",
+        "start": "nodemon"
+    },
+    "keywords": [
+        "kafka",
+        "stream",
+        "event-driven"
+    ],
+    "author": "Kasra Karami <Kasra.Karami.KK@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "avsc": "^5.7.3",
+        "node-rdkafka": "^2.11.0"
+    }
+}
