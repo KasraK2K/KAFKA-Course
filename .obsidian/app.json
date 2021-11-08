@@ -1,8 +1,10 @@
 {
   "spellcheck": true,
   "foldHeading": true,
-  "foldIndent": false,
+  "foldIndent": true,
   "showLineNumber": true,
   "defaultViewMode": "preview",
-  "fileSortOrder": "alphabetical"
+  "fileSortOrder": "alphabetical",
+  "showFrontmatter": false,
+  "showUnsupportedFiles": true
 }

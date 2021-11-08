@@ -1,0 +1,22 @@
+{
+  "name": "kafka-js-example-2",
+  "version": "1.0.0",
+  "description": "Create Kafka example 2 with Kafkajs",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Kafka",
+    "Kafkajs",
+    "stream",
+    "event-driven"
+  ],
+  "author": "Kasra Karami <Kasra.Karami.KK@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "^1.1.8",
+    "kafkajs": "^1.15.0"
+  }
+}

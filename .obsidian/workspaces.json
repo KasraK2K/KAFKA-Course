@@ -1,0 +1,95 @@
+{
+  "workspaces": {
+    "Kasra": {
+      "main": {
+        "id": "40f45319eec67f19",
+        "type": "split",
+        "children": [
+          {
+            "id": "df0dd8454504fbaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 - Concepts/Glossary.md",
+                "mode": "preview"
+              }
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "b3aa425cccf45025",
+        "type": "split",
+        "children": [
+          {
+            "id": "dd1259ca62739830",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "cd257e4bf97c0715",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "26405866dd2bf58f",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "right": {
+        "id": "e204aaa71f72915d",
+        "type": "split",
+        "children": [
+          {
+            "id": "d082fee43674762a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "40628875f0abc576",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "02 - Concepts/Glossary.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "active": "df0dd8454504fbaa"
+    }
+  },
+  "active": "Kasra"
+}

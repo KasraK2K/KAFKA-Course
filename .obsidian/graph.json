@@ -8,24 +8,52 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:\"01 - Document\"",
+      "query": "file: Quickstart",
       "color": {
         "a": 1,
         "rgb": 14701138
+      }
+    },
+    {
+      "query": "file: Implementation",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "file: Docker",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "Binary",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "Create More Broker",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
       }
     },
     {
       "query": "path:\"03 - Examples\"",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 5419488
       }
     },
     {
       "query": "path:\"02 - Concepts\"",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 5395168
       }
     }
   ],
@@ -36,9 +64,9 @@
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
   "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "repelStrength": 15.042735042735,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.8360386601669941,
-  "close": false
+  "scale": 0.5843581180567512,
+  "close": true
 }

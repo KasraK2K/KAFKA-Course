@@ -41,23 +41,13 @@ docker exec -it kafka /opt/bitnami/kafka/bin/kafka-topics.sh \
 	--replication-factor 1
 ```
 **`create`**: _Create command._
-**`topics`**: _Topic name. [ more info in [[Topic]] ]_
+**`topics`**: _Topic name._
 **`bootstrap-server`**: _What server we chose to create topic._
-**`partitions`**: _Number of partitions we need to create. [ more info in [[Partition]] ]_
-**`replication-factor`**: _Replication factor defines the number of copies of a topic in a Kafka cluster. [ more info in [[Replication Factor]] ]_
-
-Also you can read more about [[Producer]], [[Consumer]], [[Event]], etc in Concepts.
+**`partitions`**: _Number of partitions we need to create._
+**`replication-factor`**: _Replication factor defines the number of copies of a topic in a Kafka cluster._
 
 Please take a look at this picture:
 
 ![[partitions-in-kafka.png]]
 
 in this picture we have 1 topic and that topic has 3 partitions.
-&nbsp;
-&nbsp;
-
----
-
-There are some [[Examples]] to read.
-
----
