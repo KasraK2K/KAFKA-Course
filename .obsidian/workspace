@@ -4,25 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "f65aeb2b2a07f5bd",
-        "type": "leaf",
-        "state": {
-          "type": "graph",
-          "state": {}
-        },
-        "group": "915406269f06efbf"
-      },
-      {
-        "id": "5bdcd7dfa6d1f7e8",
+        "id": "411e4893e08ea4be",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "03 - Examples/Node.js/node-example-2/node-example-2.md",
+            "file": "02 - Concepts/Explain/Topic and Partition, Order, Offset.md",
+            "mode": "source"
+          }
+        },
+        "group": "77203aab4017984f"
+      },
+      {
+        "id": "891b1f11a29d8ae9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "02 - Concepts/Explain/Topic and Partition, Order, Offset.md",
             "mode": "preview"
           }
         },
-        "group": "915406269f06efbf"
+        "group": "77203aab4017984f"
       }
     ],
     "direction": "vertical"
@@ -78,6 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "02 - Concepts/Explain/Topic and Partition, Order, Offset.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,17 +99,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f65aeb2b2a07f5bd",
+  "active": "411e4893e08ea4be",
   "lastOpenFiles": [
-    "03 - Examples/Node.js/node-example-2/node-example-2.md",
-    "03 - Examples/Node.js/node-example-1/node-example-1.md",
-    "03 - Examples/Examples.md",
-    "01 - Document/Implementation/Binary/Create More Broker.md",
-    "01 - Document/Implementation/Binary/Binary.md",
+    "02 - Concepts/Explain/Topic and Partition, Order, Offset.md",
     "02 - Concepts/Glossary.md",
-    "01 - Document/Implementation/Implementation.md",
-    "01 - Document/Implementation/Docker/Docker.md",
-    "01 - Document/First Steps/Quickstart.md",
-    "01 - Document/Implementation/Cloud Service.md"
+    "02 - Concepts/Explain/Offset.md",
+    "02 - Concepts/Explain/Replica.md",
+    "02 - Concepts/Explain/Rebalance.md",
+    "02 - Concepts/Explain/Producer.md",
+    "02 - Concepts/Explain/Leader.md",
+    "02 - Concepts/Explain/Group Coordinator.md",
+    "02 - Concepts/Explain/Heartbeat.md",
+    "02 - Concepts/Explain/Consumer group.md"
   ]
 }

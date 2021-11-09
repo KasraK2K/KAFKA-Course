@@ -8,65 +8,58 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "file: Quickstart",
+      "query": "file:Quickstart",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 14701233
       }
     },
     {
-      "query": "file: Implementation",
+      "query": "file:Implementation",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 14701233
       }
     },
     {
-      "query": "file: Docker",
+      "query": "path:\"01 - Document\"",
       "color": {
         "a": 1,
-        "rgb": 5431378
-      }
-    },
-    {
-      "query": "Binary",
-      "color": {
-        "a": 1,
-        "rgb": 5431378
-      }
-    },
-    {
-      "query": "Create More Broker",
-      "color": {
-        "a": 1,
-        "rgb": 5431378
-      }
-    },
-    {
-      "query": "path:\"03 - Examples\"",
-      "color": {
-        "a": 1,
-        "rgb": 5419488
+        "rgb": 9107455
       }
     },
     {
       "query": "path:\"02 - Concepts\"",
       "color": {
         "a": 1,
-        "rgb": 5395168
+        "rgb": 16768256
+      }
+    },
+    {
+      "query": "path:\"03 - Examples\"",
+      "color": {
+        "a": 1,
+        "rgb": 1760039
+      }
+    },
+    {
+      "query": "path:\"04 - Usefull Tools\"",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
       }
     }
   ],
   "collapse-display": true,
   "showArrow": true,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
+  "textFadeMultiplier": -1.5,
+  "nodeSizeMultiplier": 1.50257264957265,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 15.042735042735,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.5843581180567512,
-  "close": true
+  "scale": 0.6989606412938202,
+  "close": false
 }
