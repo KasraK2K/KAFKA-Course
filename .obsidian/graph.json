@@ -8,38 +8,45 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
+      "query": "README",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
       "query": "file:Quickstart",
       "color": {
         "a": 1,
-        "rgb": 14701233
+        "rgb": 5431473
       }
     },
     {
-      "query": "file:Implementation",
+      "query": "path:\"01 - Document/Implementation\"",
       "color": {
         "a": 1,
-        "rgb": 14701233
+        "rgb": 5431378
       }
     },
     {
-      "query": "path:\"01 - Document\"",
+      "query": "path:",
       "color": {
         "a": 1,
-        "rgb": 9107455
-      }
-    },
-    {
-      "query": "path:\"02 - Concepts\"",
-      "color": {
-        "a": 1,
-        "rgb": 16768256
+        "rgb": 5431378
       }
     },
     {
       "query": "path:\"03 - Examples\"",
       "color": {
         "a": 1,
-        "rgb": 1760039
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "path:\"02 - Concepts\"",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
       }
     },
     {
@@ -60,6 +67,6 @@
   "repelStrength": 15.042735042735,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.5843581180567489,
-  "close": false
+  "scale": 0.4885459780778703,
+  "close": true
 }

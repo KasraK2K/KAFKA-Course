@@ -33,9 +33,17 @@ Topics are split by **Partition**:
 
 ### Note:
 -   Offset is only meaning for a specific partition.  
-    _**`Example:`** offset 3 in partition 2 dosen't re_present the same data as offset 3 in partition 1_
+    _**`Example`**: offset 3 in partition 2 dosen't re_present the same data as offset 3 in partition 1_
 -   Order is guaranteed only within a partition (not across partitions)
 -   Data is kept for a limited time (default two weeks)
 -   Once the data is written to a partition, **it can't be changed** (immutability)
 -   Data is assigned randomly to a partition unless a key is provided (more about this later)
 -   You can have as many partitions per topic as you want
+&nbsp;
+&nbsp;
+
+---
+
+In the following please read [[Broker]] concept.
+
+---

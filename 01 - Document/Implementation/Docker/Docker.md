@@ -51,3 +51,11 @@ Please take a look at this picture:
 ![[partitions-in-kafka.png]]
 
 in this picture we have 1 topic and that topic has 3 partitions.
+&nbsp;
+&nbsp;
+
+---
+
+Read implementation with [[Binary]]
+
+---

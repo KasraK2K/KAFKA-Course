@@ -4,28 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "411e4893e08ea4be",
+        "id": "ef5b0310d11d6bad",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
-            "mode": "source"
-          }
-        },
-        "group": "c858162e8d91f866"
-      },
-      {
-        "id": "68f64bcffddbe62f",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "README.md",
+            "file": "02 - Concepts/Explain/Leader.md",
             "mode": "preview"
           }
-        },
-        "group": "c858162e8d91f866"
+        }
       }
     ],
     "direction": "vertical"
@@ -81,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "02 - Concepts/Explain/Leader.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "411e4893e08ea4be",
+  "active": "ef5b0310d11d6bad",
   "lastOpenFiles": [
-    "README.md",
-    "02 - Concepts/Explain/Topic and Partition, Order, Offset.md",
-    "02 - Concepts/Explain/Broker.md",
-    "02 - Concepts/Glossary.md",
-    "02 - Concepts/Explain/Offset.md",
-    "02 - Concepts/Explain/Replica.md",
-    "02 - Concepts/Explain/Rebalance.md",
-    "02 - Concepts/Explain/Producer.md",
     "02 - Concepts/Explain/Leader.md",
-    "02 - Concepts/Explain/Group Coordinator.md"
+    "02 - Concepts/Explain/Producer.md",
+    "02 - Concepts/Explain/Topic and Partition, Order, Offset.md",
+    "01 - Document/Implementation/Docker/Docker.md",
+    "01 - Document/Implementation/Binary/Binary.md",
+    "01 - Document/Implementation/Implementation.md",
+    "02 - Concepts/Glossary.md",
+    "02 - Concepts/Explain/Replication Factor.md",
+    "02 - Concepts/Explain/Broker.md",
+    "Images/broker-and-topic.png"
   ]
 }

@@ -3,3 +3,4 @@ Although a partition may be replicated to one or more brokers, a single broker i
 
 ---
 
+## Explanation:

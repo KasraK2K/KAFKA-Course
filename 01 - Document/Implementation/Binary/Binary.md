@@ -61,7 +61,7 @@ bin/kafka-console-consumer.sh --topic quickstart-events --from-beginning --boots
 
 ---
 
-See Implementation in [[Implementation]]
+Read implementation with [[Docker]].
 More Document in [GitBook](https://jaceklaskowski.gitbooks.io/apache-kafka/content)
 
 ---
