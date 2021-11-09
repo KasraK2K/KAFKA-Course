@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ef5b0310d11d6bad",
+        "id": "cd4dcae27a69ea7d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "02 - Concepts/Explain/Leader.md",
-            "mode": "preview"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - Concepts/Explain/Leader.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ef5b0310d11d6bad",
+  "active": "cd4dcae27a69ea7d",
   "lastOpenFiles": [
+    "02 - Concepts/Glossary.md",
+    "02 - Concepts/Explain/Cluster.md",
     "02 - Concepts/Explain/Leader.md",
-    "02 - Concepts/Explain/Replication Factor.md",
-    "02 - Concepts/Explain/Broker.md",
     "02 - Concepts/Explain/Producer.md",
     "02 - Concepts/Explain/Topic and Partition, Order, Offset.md",
+    "README.md",
+    "02 - Concepts/Explain/Replication Factor.md",
+    "02 - Concepts/Explain/Broker.md",
     "01 - Document/Implementation/Docker/Docker.md",
-    "01 - Document/Implementation/Binary/Binary.md",
-    "01 - Document/Implementation/Implementation.md",
-    "02 - Concepts/Glossary.md",
-    "Images/broker-and-topic.png"
+    "01 - Document/Implementation/Binary/Binary.md"
   ]
 }
