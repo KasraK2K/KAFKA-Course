@@ -7,11 +7,8 @@
         "id": "411e4893e08ea4be",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "02 - Concepts/Explain/Topic and Partition, Order, Offset.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         },
         "group": "77203aab4017984f"
       },
@@ -81,7 +78,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - Concepts/Explain/Topic and Partition, Order, Offset.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
