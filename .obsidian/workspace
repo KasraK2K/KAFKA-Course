@@ -49,7 +49,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 324
   },
   "right": {
     "id": "e204aaa71f72915d",
@@ -85,14 +85,14 @@
   "active": "cd4dcae27a69ea7d",
   "lastOpenFiles": [
     "02 - Concepts/Glossary.md",
-    "02 - Concepts/Explain/Cluster.md",
-    "02 - Concepts/Explain/Leader.md",
-    "02 - Concepts/Explain/Producer.md",
-    "02 - Concepts/Explain/Topic and Partition, Order, Offset.md",
-    "README.md",
-    "02 - Concepts/Explain/Replication Factor.md",
+    "02 - Concepts/Explain/Heartbeat.md",
+    "02 - Concepts/Explain/Group Coordinator.md",
+    "02 - Concepts/Explain/Consumer, Group and Offset.md",
+    "02 - Concepts/Explain/Topic, Partition and Offset.md",
     "02 - Concepts/Explain/Broker.md",
-    "01 - Document/Implementation/Docker/Docker.md",
-    "01 - Document/Implementation/Binary/Binary.md"
+    "02 - Concepts/Explain/Cluster.md",
+    "02 - Concepts/Explain/Producer.md",
+    "02 - Concepts/Explain/Consumer group.md",
+    "02 - Concepts/Explain/Leader.md"
   ]
 }

@@ -1,23 +1,23 @@
-# Topic and Partition
+# Topic, Partition and Offset
 
 ---
 
-## Topic
+## **`Topic`**:
 Topics are used to organize data. You always read and write to and from a particular topic
 &nbsp;
 &nbsp;
 
-## Partition
+## **`Partition`**:
 Data in a topic is spread across a number of partitions. Each partition can be thought of as a log file, ordered by time. To guarantee that you read messages in the correct order, only one instance can read from a particular partition at a time.
 &nbsp;
 &nbsp;
 
-## Offset
+## **`Offset`**:
 A certain point in the partition log. When a consumer has consumed a message, it "commits" that offset, meaning that it tells the broker that the consumer group has consumed that message. If the consumer group is restarted, it will restart from the highest committed offset.
 &nbsp;
 &nbsp;
 
-## Explanation:
+## **`Explanation`**:
 Topic is a particular stream of data:
 - Similar to a **Table** in a database (without all constrains)
 - You can have a **Many Topics** a you want
@@ -31,7 +31,7 @@ Topics are split by **Partition**:
 &nbsp;
 &nbsp;
 
-### Note:
+### _Note_:
 -   Offset is only meaning for a specific partition.  
     _**`Example`**: offset 3 in partition 2 dosen't re_present the same data as offset 3 in partition 1_
 -   Order is guaranteed only within a partition (not across partitions)

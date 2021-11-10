@@ -1,9 +1,13 @@
 # Replication factor
-Partitions are typically replicated to one or more brokers to avoid data loss.
 
 ---
 
-## Explanation:
+## **`Replication factor`**:
+Partitions are typically replicated to one or more brokers to avoid data loss.
+&nbsp;
+&nbsp;
+
+## **`Explanation`**:
 - Topics should have a replication factor > 1 (usually between 2 and 3)
 - This is way if a broker is down, another broker can serve the data
 

@@ -29,13 +29,6 @@
       }
     },
     {
-      "query": "path:",
-      "color": {
-        "a": 1,
-        "rgb": 5431378
-      }
-    },
-    {
       "query": "path:\"03 - Examples\"",
       "color": {
         "a": 1,
@@ -68,5 +61,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.4885459780778703,
-  "close": true
+  "close": false
 }
