@@ -4,11 +4,34 @@
 
 ## **`Topic`**:
 Topics are used to organize data. You always read and write to and from a particular topic
+
+![[topic-partition-01.png]]
 &nbsp;
 &nbsp;
 
 ## **`Partition`**:
 Data in a topic is spread across a number of partitions. Each partition can be thought of as a log file, ordered by time. To guarantee that you read messages in the correct order, only one instance can read from a particular partition at a time.
+_**NOTE**_: If we diden't chose key for messages (messages has no key), messages that that you write will be distributed _**round robin**_ among the topic's partition.
+&nbsp;
+&nbsp;
+
+_**partition without key**_:
+
+![[partition-round-robin.png]]
+
+because this partitions has no key they are unordered partitions:
+
+![[unordered-partition.png]]
+&nbsp;
+&nbsp;
+
+_**partition with key**_:
+
+![[partition-with-key.png]]
+
+because this partitions has key they are ordered partitions:
+
+![[ordered-partition.png]]
 &nbsp;
 &nbsp;
 
@@ -27,7 +50,7 @@ Topics are split by **Partition**:
 - Each partition is **Ordered**
 - Each message within a partition gets an incremental id, called **Offset**
 
-![[topic-partition.png]]
+![[topic-partition-02.png]]
 &nbsp;
 &nbsp;
 

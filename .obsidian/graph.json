@@ -8,7 +8,7 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "README",
+      "query": "file:README",
       "color": {
         "a": 1,
         "rgb": 5395168
@@ -61,5 +61,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.4885459780778703,
-  "close": false
+  "close": true
 }

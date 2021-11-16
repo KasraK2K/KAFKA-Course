@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "cd4dcae27a69ea7d",
+        "id": "e2530929d0ecbe80",
         "type": "leaf",
         "state": {
           "type": "graph",
@@ -82,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cd4dcae27a69ea7d",
+  "active": "e2530929d0ecbe80",
   "lastOpenFiles": [
+    "02 - Concepts/Explain/Kafka Connect.md",
     "02 - Concepts/Glossary.md",
-    "02 - Concepts/Explain/Heartbeat.md",
-    "02 - Concepts/Explain/Group Coordinator.md",
+    "02 - Concepts/Explain/Leader.md",
     "02 - Concepts/Explain/Consumer, Group and Offset.md",
+    "Images/multiple-consumer-read-one-topic-01.png",
+    "02 - Concepts/Explain/Producer.md",
     "02 - Concepts/Explain/Topic, Partition and Offset.md",
     "02 - Concepts/Explain/Broker.md",
-    "02 - Concepts/Explain/Cluster.md",
-    "02 - Concepts/Explain/Producer.md",
-    "02 - Concepts/Explain/Consumer group.md",
-    "02 - Concepts/Explain/Leader.md"
+    "02 - Concepts/Explain/Replication Factor.md",
+    "Images/topic-partition-01.png"
   ]
 }

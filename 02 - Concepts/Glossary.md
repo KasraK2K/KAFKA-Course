@@ -12,9 +12,10 @@
 | [[Producer]] | A client that writes data to one or more Kafka topics |
 | Cluster | The collective group of machines that Kafka is running on |
 | [[Consumer, Group and Offset]] | _**Consumer**_: A client that reads data from one or more Kafka topics. _**Consumer group**_: A collective group of consumer instances, identified by a [`groupId`](https://kafka.js.org/docs/consuming#a-name-options-a-options). In a horizontally scaled application, each instance would be a consumer and together they would act as a consumer group. |
-| Group Coordinator | An instance in the consumer group that is responsible for assigning partitions to consume from to the consumers in the group |
+| [[Group Coordinator]] | An instance in the consumer group that is responsible for assigning partitions to consume from to the consumers in the group |
 | Rebalance | When a consumer has joined or left a consumer group (such as during booting or shutdown), the group has to "rebalance", meaning that a group coordinator has to be chosen and partitions need to be assigned to the members of the consumer group. |
 | Heartbeat | The mechanism by which the cluster knows which consumers are alive. Every now and then ([`heartbeatInterval`](https://kafka.js.org/docs/consuming#a-name-options-a-options)), each consumer has to send a heartbeat request to the cluster leader. If one fails to do so for a certain period ([`sessionTimeout`](https://kafka.js.org/docs/consuming#a-name-options-a-options)), it is considered dead and will be removed from the consumer group, triggering a rebalance. |
+| [[Kafka Connect]] | Kafka Connect acts as a mediator between the apache Kafka and different or other data-driven systems. The Kafka connector is nothing but a tool for reliable as well as scalable streaming solutions. |
 &nbsp;
 &nbsp;
 
@@ -22,12 +23,10 @@
 To learn Concepts friendly and easy watch [Apache Kafka in 6 minutes](https://www.youtube.com/watch?v=Ch5VhJzaoaI)
 
 ![[concept-01.png]]
-
 ![[concept-02.png]]
-
 ![[concept-03-record-age-cleaner.png]]
-
 ![[concept-04-replication-factor.png]]
+![[summary.png]]
 &nbsp;
 &nbsp;
 
