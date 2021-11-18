@@ -42,7 +42,7 @@ docker exec -it kafka /opt/bitnami/kafka/bin/kafka-topics.sh \
 ```
 **`create`**: _Create command._
 **`topics`**: _Topic name._
-**`bootstrap-server`**: _What server we chose to create topic._
+**`bootstrap-server`**: _What server we choose to create topic._
 **`partitions`**: _Number of partitions we need to create._
 **`replication-factor`**: _Replication factor defines the number of copies of a topic in a Kafka cluster._
 

@@ -2,7 +2,7 @@
 
 ---
 
-In this example i chose 2 npm packages.
+In this example i choose 2 npm packages.
 
 ```bash
 npm i node-rdkafka

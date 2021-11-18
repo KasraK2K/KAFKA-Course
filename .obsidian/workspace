@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "e2530929d0ecbe80",
+        "id": "2a3c046ac2f3db72",
         "type": "leaf",
         "state": {
           "type": "graph",
@@ -82,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e2530929d0ecbe80",
+  "active": "2a3c046ac2f3db72",
   "lastOpenFiles": [
-    "02 - Concepts/Explain/Kafka Connect.md",
-    "02 - Concepts/Glossary.md",
-    "02 - Concepts/Explain/Leader.md",
-    "02 - Concepts/Explain/Consumer, Group and Offset.md",
-    "Images/multiple-consumer-read-one-topic-01.png",
-    "02 - Concepts/Explain/Producer.md",
+    "03 - Examples/Examples.md",
+    "03 - Examples/Node.js/nestjs-example/nestjs-example.md",
+    "04 - Usefull Tools/Administration UI Tools/Administration UI Tools.md",
     "02 - Concepts/Explain/Topic, Partition and Offset.md",
-    "02 - Concepts/Explain/Broker.md",
-    "02 - Concepts/Explain/Replication Factor.md",
-    "Images/topic-partition-01.png"
+    "03 - Examples/Node.js/node-example-1/node-example-1.md",
+    "02 - Concepts/Glossary.md",
+    "01 - Document/Implementation/Docker/Docker.md",
+    "01 - Document/Implementation/Binary/Binary.md",
+    "02 - Concepts/Explain/Group Coordinator.md",
+    "02 - Concepts/Explain/Kafka Connect.md"
   ]
 }
