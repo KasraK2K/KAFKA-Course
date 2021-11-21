@@ -11,7 +11,7 @@ Topics are used to organize data. You always read and write to and from a partic
 
 ## **`Partition`**:
 Data in a topic is spread across a number of partitions. Each partition can be thought of as a log file, ordered by time. To guarantee that you read messages in the correct order, only one instance can read from a particular partition at a time.
-_**NOTE**_: If we diden't choose key for messages (messages has no key), messages that that you write will be distributed _**round robin**_ among the topic's partition.
+_**NOTE**_: If we diden't choose key for messages (messages has no key), messages that you write will be distributed _**round robin**_ among the topic's partition.
 &nbsp;
 &nbsp;
 
@@ -43,7 +43,7 @@ A certain point in the partition log. When a consumer has consumed a message, it
 ## **`Explanation`**:
 Topic is a particular stream of data:
 - Similar to a **Table** in a database (without all constrains)
-- You can have a **Many Topics** a you want
+- You can have as **Many Topics** as you want
 - A topic is identified by it **Name**
 
 Topics are split by **Partition**:

@@ -21,7 +21,7 @@ I write `server-broker1.properties` for example and you can edit other brokers a
 broker.id=1
 listeners=PLAINTEXT://:9093
 advertised.listeners=PLAINTEXT://127.0.0.1:9093
-log.dirs=/home/kasra/SOFTWARE/K-Kafka/tmp/1
+log.dirs=/home/kasra/SOFTWARE/Kafka/tmp/1
 ```
 
 As you can see i changed `log.dirs` and for each one i created new folder.

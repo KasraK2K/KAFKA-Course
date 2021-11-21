@@ -12,7 +12,7 @@ services:
 		ports:
 			- '2181:2181'
 		environment:
-- ALLOW_ANONYMOUS_LOGIN=yes
+			- ALLOW_ANONYMOUS_LOGIN=yes
 	kafka:
 		image: 'bitnami/kafka:latest'
 		container_name: 'kafka'

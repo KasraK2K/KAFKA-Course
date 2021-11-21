@@ -1,84 +1,44 @@
-import { Controller } from '@nestjs/common';
-import {
-  Client,
-  ClientKafka,
-  MessagePattern,
-  Payload,
-  Transport,
-} from '@nestjs/microservices';
+import { Controller, Inject } from '@nestjs/common';
+import { ClientKafka, MessagePattern, Payload } from '@nestjs/microservices';
 import { HerosService } from './heros.service';
+import { stringToObject } from '../utils/object-generator';
 
 @Controller()
 export class HerosController {
-  constructor(private readonly herosService: HerosService) {}
-
-  @Client({
-    transport: Transport.KAFKA,
-    options: {
-      client: {
-        clientId: 'hero',
-        brokers: ['localhost:9092'],
-      },
-      consumer: {
-        groupId: 'hero-consumer',
-      },
-      producer: {
-        allowAutoTopicCreation: true,
-      },
-    },
-  })
-  client: ClientKafka;
+  constructor(
+    private readonly herosService: HerosService,
+    @Inject('HERO_SERVICE') private readonly client: ClientKafka,
+  ) {}
 
   async onModuleInit() {
-    this.client.subscribeToResponseOf('createHerosMessage');
+    this.client.subscribeToResponseOf('create.hero');
+    this.client.subscribeToResponseOf('create.hero.reply');
     await this.client.connect();
   }
 
-  @MessagePattern('createHerosMessage')
+  @MessagePattern('create.hero')
   createFirstHero(@Payload() message): any {
     const realm = 'Nest';
-    const { heroId, name } = this.stringToObject(message.value);
-    const items = [
-      { id: 1, name: 'Sword' },
-      { id: 2, name: 'Ring' },
-      { id: 3, name: 'Horse' },
-      { id: 4, name: 'Gun' },
-    ];
-    const randomGift = items[Math.floor(Math.random() * items.length)];
+    const { heroId, name } = stringToObject(message.value);
+    const result = this.herosService.createFirstHero(heroId, name);
 
-    this.client.emit('rewardsHerosMessage', {
-      name,
-      heroId,
-      randomGift,
-    });
-
-    return {
+    this.client.emit('create.hero.reply', {
       headers: {
         kafka_nestRealm: realm,
       },
       key: heroId,
       value: {
-        name,
-        heroId,
-        randomGift,
+        name: result.name,
+        heroId: result.heroId,
+        randomGift: result.randomGift,
       },
-    };
+    });
   }
 
-  @MessagePattern('rewardsHerosMessage')
+  @MessagePattern('create.hero.reply')
   createReward(@Payload() message): any {
     const { name, heroId, randomGift } = message.value;
 
-    console.log(
-      `Hero "${name}" with id "${heroId}" created and earn item "${randomGift.name}" as a reward`,
-    );
-  }
-
-  private stringToObject(text: string): Record<string, any> {
-    return JSON.parse(
-      text.replace(/(\w+:)|(\w+ :)/g, (matched) => {
-        return `"${matched.substring(0, matched.length - 1)}":`;
-      }),
-    );
+    console.log(`"${name}" by id "${heroId}" earn a "${randomGift.name}".`);
   }
 }

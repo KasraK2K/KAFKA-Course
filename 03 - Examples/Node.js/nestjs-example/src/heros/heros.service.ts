@@ -2,23 +2,19 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class HerosService {
-  create() {
-    return 'This action adds a new hero';
-  }
+  createFirstHero(heroId: number, name: string) {
+    const items = [
+      { id: 1, name: 'Sword' },
+      { id: 2, name: 'Ring' },
+      { id: 3, name: 'Horse' },
+      { id: 4, name: 'Gun' },
+    ];
+    const randomGift = items[Math.floor(Math.random() * items.length)];
 
-  findAll() {
-    return `This action returns all heros`;
-  }
-
-  findOne(id: number) {
-    return `This action returns a #${id} hero`;
-  }
-
-  update(id: number) {
-    return `This action updates a #${id} hero`;
-  }
-
-  remove(id: number) {
-    return `This action removes a #${id} hero`;
+    return {
+      name,
+      heroId,
+      randomGift,
+    };
   }
 }
