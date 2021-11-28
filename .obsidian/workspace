@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01 - Document/Implementation/Binary/Binary.md",
-            "mode": "preview"
+            "file": "README.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Document/Implementation/Binary/Binary.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "2a3c046ac2f3db72",
   "lastOpenFiles": [
-    "01 - Document/Implementation/Binary/Binary.md",
-    "03 - Examples/Node.js/nestjs-example/nestjs-example.md",
-    "03 - Examples/Node.js/node-example-2/node-example-2.md",
-    "03 - Examples/Node.js/node-example-1/node-example-1.md",
-    "03 - Examples/Examples.md",
-    "02 - Concepts/Explain/Kafka Connect.md",
-    "02 - Concepts/Explain/Group Coordinator.md",
+    "README.md",
+    "02 - Concepts/Explain/Producer.md",
+    "02 - Concepts/Glossary.md",
+    "04 - Usefull Tools/Administration UI Tools/KaDeck.md",
+    "04 - Usefull Tools/Administration UI Tools/Kafka-UI.md",
+    "04 - Usefull Tools/Administration UI Tools/Administration UI Tools.md",
+    "04 - Usefull Tools/Useful Tools.md",
+    "02 - Concepts/Explain/Broker.md",
     "02 - Concepts/Explain/Consumer, Group and Offset.md",
-    "02 - Concepts/Explain/Replication Factor.md",
-    "02 - Concepts/Explain/Producer.md"
+    "02 - Concepts/Explain/Group Coordinator.md"
   ]
 }
