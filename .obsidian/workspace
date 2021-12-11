@@ -89,13 +89,13 @@
   "active": "2a3c046ac2f3db72",
   "lastOpenFiles": [
     "README.md",
+    "02 - Concepts/Explain/Broker.md",
     "02 - Concepts/Explain/Producer.md",
     "02 - Concepts/Glossary.md",
     "04 - Usefull Tools/Administration UI Tools/KaDeck.md",
     "04 - Usefull Tools/Administration UI Tools/Kafka-UI.md",
     "04 - Usefull Tools/Administration UI Tools/Administration UI Tools.md",
     "04 - Usefull Tools/Useful Tools.md",
-    "02 - Concepts/Explain/Broker.md",
     "02 - Concepts/Explain/Consumer, Group and Offset.md",
     "02 - Concepts/Explain/Group Coordinator.md"
   ]
